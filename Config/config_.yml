@@ -1,0 +1,11 @@
+Data_Warehouse_Path: E:\BarraPlatform\Barra_Recurrent\Temporary_warehouse\Data
+#E:\Data            #数据库路径
+Data_Must_Need: [close, market_cap, turnover_ratio, roa, operating_cost, operating_revenue, total_assets, cash_and_equivalents_at_end, total_liability, net_profit,net_invest_cash_flow,net_operate_cash_flow,total_operating_revenue, net_profit, cash_equivalent_increase, circulating_cap, financial_expense]
+
+Independent_Variable: ['000300']        #要分析的对象
+Industry_Class: [sw_l1]                 #行业分类方法
+
+
+
+Analyse_Start_date: '2015-01-01'
+Analyse_End_date: '2021-02-03'
